@@ -3,8 +3,6 @@ import servicioDtc from '../../../../services/dtc'
 import ModaNueva from './nueva'
 import React, { useEffect, useState, Fragment } from "react";
 import Modalver from './modalver'
-import MUIDataTable from "mui-datatables";
-import ForwardToInboxTwoToneIcon from '@mui/icons-material/ForwardToInboxTwoTone';
 import { useNavigate } from "react-router-dom";
 import TableHead from '@mui/material/TableHead';
 import Tooltip from '@material-ui/core/Tooltip';
@@ -268,22 +266,7 @@ const TablaNotificaciones = (props) => {
 
                                 </TableContainer>
                             </> : <><>
-                                <MUIDataTable
-
-                                    title={"Lista de chicos"}
-                                    data={chicos}
-                                    columns={columns}
-                                    actions={[
-                                        {
-                                            icon: 'save',
-                                            tooltip: 'Save User',
-                                            onClick: (event, rowData) => alert("You saved " + rowData.name)
-                                        }
-                                    ]}
-                                    options={options}
-
-
-                                />
+                             
 
                             </></>}
 
