@@ -8,8 +8,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import MUIDataTable from "mui-datatables";
-import EditIcon from "@material-ui/icons/Edit";
+
 import Card from '@mui/material/Card';
 
 import CardContent from '@mui/material/CardContent';

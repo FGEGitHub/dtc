@@ -17,7 +17,6 @@ import Nuevo from './AgregarUsuario';
 import Borrar from './borrarusuario';
 import { Paper } from '@mui/material';
 import MUIDataTable from "mui-datatables";
-import EditIcon from "@material-ui/icons/Edit";
 import Modificar from './modificarusuario';
 import {
 

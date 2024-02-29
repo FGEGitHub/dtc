@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
-import { getThemeProps } from '@material-ui/styles';
 import servicioDtc from '../../../../services/dtc'
 import { useNavigate } from "react-router-dom";
 const MobileAutocomplete = (props) => {
